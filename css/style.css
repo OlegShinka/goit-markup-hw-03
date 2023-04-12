@@ -1,0 +1,222 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+:root {
+  --primary-text-color: #434455;
+  --primary-bg-color: #ffffff;
+  --secondary-text-color: #434455;
+  --secondary-bg-color: #2e2f42;
+  --title-text-color: #ffffff;
+  --subtitle-text-color: #2e2f42;
+  --section-bg-color: #f4f4fd;
+  --footer-text-color: #f4f4fd;
+  --link-text-color: #4d5ae5;
+  --btn-bg-color: #4d5ae5;
+  --btn-text-color: #ffffff;
+  --link-span-color: #2e2f42;
+  --active-hover-color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* header style start */
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--link-text-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link-span {
+  font-family: "Raleway", sans-serif;
+  color: var(--link-span-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link-nav {
+  color: var(--subtitle-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--active-hover-color);
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  /* font-style: normal; */
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--active-hover-color);
+}
+
+/* header style end  */
+
+/* hero style start */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  color: var(--btn-text-color);
+  background-color: var(--btn-bg-color);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-hover-color);
+}
+/* hero style end */
+
+/* feauter style start */
+.features-list-title {
+  color: var(--subtitle-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-list-desc {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* features style end */
+
+/* doing style start */
+.doing-title {
+  color: var(--subtitle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* doing style end */
+
+/* team style start */
+.team {
+  background-color: var(--section-bg-color);
+}
+.list-item {
+  background-color: var(--primary-bg-color);
+}
+.team-title {
+  color: var(--subtitle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team-subtitle {
+  color: var(--subtitle-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-desc {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* team style end */
+
+/* portfolio page style start */
+
+/* filter style start */
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  color: var(--link-text-color);
+  background-color: var(--section-bg-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--title-text-color);
+  background-color: var(--active-hover-color);
+}
+/* filter style end */
+
+/* possibility style start */
+.card-title {
+  color: var(--subtitle-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-desc {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* possibility style end */
+
+/* footer style start */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  color: var(--link-text-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.footer-link-text {
+  font-family: "Raleway", sans-serif;
+  color: var(--footer-text-color);
+}
+.footer-desc {
+  color: var(--footer-text-color);
+  line-height: 1.5;
+}
+/* footer style end */

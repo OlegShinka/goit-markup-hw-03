@@ -442,6 +442,7 @@ body {
 
 .card-title {
   margin-top: 0;
+  margin-bottom: 8px;
   color: var(--subtitle-text-color);
   font-weight: 500;
   font-size: 20px;

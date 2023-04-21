@@ -412,7 +412,7 @@ body {
 .filter-btn:focus {
   color: var(--title-text-color);
   background-color: var(--active-hover-color);
-  bottom: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 /* filter style end */

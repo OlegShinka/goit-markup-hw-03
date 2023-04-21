@@ -448,6 +448,8 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   min-width: 360px;
+  border: 1px solid var(--card-border-color);
+  border-top: none;
 }
 
 .card-title {
